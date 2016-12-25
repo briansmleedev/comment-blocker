@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+
+    "name": "Comment Blocker",
+    "description": "Hides comments in a website!",
+    "version": "1.0",
+
+    "browser_action": {
+    },
+    
+    "content_scripts": [
+	{
+	    "matches": ["<all_urls>"],
+	    "css": ["comment_block.css"]
+	}
+    ]
+  
+}

@@ -1,0 +1,12 @@
+*[id*="comment"]{
+    display: none;
+}
+*[class*="comment"]{
+    display: none;
+}
+*[id*="discussion"]{
+    display: none;
+}
+*[class*="discussion"]{
+    display: none;
+}
